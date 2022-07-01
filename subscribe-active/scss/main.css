@@ -152,7 +152,6 @@ a {
   position: sticky;
   list-style-type: none;
   margin-top: 80px;
-  height: 200px;
 }
 .list ul li a {
   display: inline-block;
