@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+}
+
+.font {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin: 70px 80px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-left: 100px;
+}
+
+.content {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  color: #333d4b;
+  margin-left: 100px;
+}
+
+.wrap {
+  margin-left: 100px;
+}
+
+.first {
+  margin-right: 40px;
+}
+
+.second {
+  margin-right: 40px;
+}

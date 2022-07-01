@@ -1,0 +1,68 @@
+.section__inner {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.section__imge {
+  // width: 900px;
+  // height: 380px;
+  width: 495px;
+  height: 426px;
+  border-radius: 6px;
+  margin-left: 90px;
+  margin-right: 130px;
+}
+
+.title {
+  // font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.title-1 {
+  color: #333d4b;
+}
+
+.box {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.box-1 {
+  color: #333d4b;
+}
+
+.title-2 {
+  color: #fefcf7;
+  margin-left: 80px;
+}
+
+.box-2 {
+  color: #fefcf7;
+  margin-left: 80px;
+}
+
+.section__inner--revorse {
+  flex-direction: row-reverse;
+  background-color: #2c343e;
+  border-radius: 10px;
+  height: 450px;
+}
+
+.imge-section {
+  margin: 50px 90px;
+  width: 367px;
+  height: 400px;
+  background: #0e8784;
+  border-radius: 8px;
+  margin-top: -140px;
+}

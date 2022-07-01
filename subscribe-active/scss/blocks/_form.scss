@@ -1,0 +1,101 @@
+// .list {
+//   position: sticky;
+
+//   margin-left: -50px;
+// }
+
+.list ul {
+  position: sticky;
+  list-style-type: none;
+  margin-top: 80px;
+
+  li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3 ease;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333d4b;
+  }
+}
+
+.box {
+  margin-right: 30px;
+
+  &:hover {
+    color: #0e8784;
+  }
+}
+
+.list ul li {
+  border-bottom: 2px solid #83888f;
+  width: 300px;
+  opacity: 0.25;
+}
+
+.list ul li a:hover {
+  color: black;
+}
+
+.list ul li:last-child {
+  border-bottom: none;
+}
+
+.section-inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__group-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888f;
+  margin-bottom: 56px;
+  margin-top: 90px;
+}
+
+.form__group-inputs {
+  display: flex;
+  gap: 20px;
+
+  input[type="radio"] {
+    &:checked + .form__radio-label {
+      background-color: #0e8784;
+      color: white;
+
+      p {
+        color: #fefcf7;
+      }
+    }
+  }
+}
+
+.form__radio-label {
+  cursor: pointer;
+  display: block;
+  max-width: 230px;
+  padding-bottom: 84px;
+  background-color: #f4f1eb;
+  padding: 72px 28px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+
+  p {
+    color: #333d4b;
+    margin: 0;
+  }
+
+  &:hover {
+    background-color: #fdd6ba;
+  }
+}
