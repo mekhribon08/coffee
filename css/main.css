@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Fraunces", serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .visually-hidden {
@@ -152,6 +153,7 @@ a {
   position: sticky;
   list-style-type: none;
   margin-top: 80px;
+  height: 450px;
 }
 .list ul li a {
   display: inline-block;

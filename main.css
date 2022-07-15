@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fraunces", serif;
+  /* font-family: "Barlow", sans-serif; */
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.main-nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3 ease;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888f;
+}
+
+a {
+  margin: 20px;
+}
+
+.logo {
+  margin-right: 600px;
+  margin-left: 15px;
+}
+
+.h2 {
+  width: 500px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+
+.p {
+  width: 300px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.8;
+  color: #fefcf7;
+}
+
+.btn {
+  background: #0e8784;
+  border-radius: 6px;
+  border: 1px solid #0e8784;
+  height: 40px;
+  width: 150px;
+  color: #fefcf7;
+  /* font-family: "Fraunces 9pt"; */
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.grey-box {
+  background-color: #a2a2a2;
+  width: 1150px;
+  height: 520px;
+  border-radius: 12px;
+  padding-left: 90px;
+  padding-top: 30px;
+  margin-bottom: 90px;
+}
+
+.primary {
+  display: flex;
+  margin-top: -60px;
+}
+
+.inner {
+  /* font-family: "Fraunces 9pt"; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d;
+  margin-top: 80px;
+  margin-right: 60px;
+}
+
+.inner-p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  color: #333d4b;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.all {
+  background-color: #2c343e;
+  width: 1140px;
+  height: 500px;
+  border-radius: 12px;
+  color: #fefcf7;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.word-h1 {
+  /* font-family: "Fraunces 9pt"; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 90px;
+}
+
+.word-p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.h5 {
+  /* font-family: "Fraunces 9pt"; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.icon-word {
+  width: 250px;
+  margin-left: 40px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.class {
+  width: 330px;
+  height: 350px;
+  background-color: #0e8784;
+  border-radius: 8px;
+  font-size: 34px;
+  margin-right: 20px;
+  margin-bottom: 150px;
+}
+
+.img {
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.spacial {
+  /* font-family: "Fraunces 9pt"; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-left: 50px;
+}
+
+.border {
+  border-top: 2px solid #fdd6ba;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.span {
+  background-color: #fefcf7;
+  border: 2px solid #0e8784;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: -10px;
+}
+
+.section-content {
+  display: flex;
+  margin-top: 85px;
+}
+
+.same {
+  /* font-family: "Fraunces 9pt"; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.pi {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888f;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 50px;
+  margin-top: 90px;
+  background-color: #2c343e;
+}
+
+.site {
+  margin-left: 300px;
+}
+
+.foooter-img {
+  margin-right: 80px;
+}
+
+.site img {
+  margin-left: 24px;
+}
