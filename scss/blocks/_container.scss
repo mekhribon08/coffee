@@ -1,5 +1,10 @@
 .container {
-  max-width: 1200px;
+  max-width: $desktop;
   padding: 0 15px;
   margin: 0 auto;
+  color: red;
+
+  @media (max-width: $desktop) {
+    max-width: $tablet;
+  }
 }
