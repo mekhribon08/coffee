@@ -17,6 +17,11 @@
     />
     <link rel="stylesheet" href="./sub-css/main.css" />
   </head>
+  <style>
+    .hide {
+      display: none;
+    }
+  </style>
   <body>
     <header class="main-header">
       <div class="container">
@@ -147,8 +152,10 @@
             </div>
             <form action="#" class="form">
               <div class="form__group">
-                <h3 class="form__group-title">How do you drink your coffee?</h3>
-                <div class="form__group-inputs">
+                <h3 class="form__group-title" data-text-1>
+                  How do you drink your coffee?
+                </h3>
+                <div class="form__group-inputs" data-d-none-1>
                   <input
                     class="visually-hidden"
                     id="reason-capsule"
@@ -186,8 +193,10 @@
               </div>
 
               <div class="form__group">
-                <h3 class="form__group-title">What type of coffee?</h3>
-                <div class="form__group-inputs">
+                <h3 class="form__group-title" data-text-2>
+                  What type of coffee?
+                </h3>
+                <div class="form__group-inputs" data-d-none-2>
                   <input
                     class="visually-hidden"
                     id="coffee-type"
@@ -234,8 +243,10 @@
               </div>
 
               <div class="form__group">
-                <h3 class="form__group-title">How much would you like?</h3>
-                <div class="form__group-inputs">
+                <h3 class="form__group-title" data-text-3>
+                  How much would you like?
+                </h3>
+                <div class="form__group-inputs" data-d-none-3>
                   <input
                     class="visually-hidden"
                     id="reason-250"
@@ -282,8 +293,10 @@
               </div>
 
               <div class="form__group">
-                <h3 class="form__group-title">Want us to grind them?</h3>
-                <div class="form__group-inputs">
+                <h3 class="form__group-title" data-text-4>
+                  Want us to grind them?
+                </h3>
+                <div class="form__group-inputs" data-d-none-4>
                   <input
                     class="visually-hidden"
                     id="reason-wholebean"
@@ -329,8 +342,10 @@
               </div>
 
               <div class="form__group">
-                <h3 class="form__group-title">How often should we deliver?</h3>
-                <div class="form__group-inputs">
+                <h3 class="form__group-title" data-text-5>
+                  How often should we deliver?
+                </h3>
+                <div class="form__group-inputs" data-d-none-5>
                   <input
                     class="visually-hidden"
                     id="every-week"
