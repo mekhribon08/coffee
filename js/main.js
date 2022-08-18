@@ -21,7 +21,3 @@ function toggle(section, text) {
     section.classList.toggle("visually-hidden");
   });
 }
-
-// elText1.addEventListener("click", function (evt) {
-//   elSection1.classList.toggle("hide");
-// });
