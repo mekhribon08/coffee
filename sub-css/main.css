@@ -18,7 +18,7 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -208,11 +208,11 @@ a {
   display: flex;
   gap: 20px;
 }
-.form__group-inputs input[type=radio]:checked + .form__radio-label {
+.form__group-inputs input[type="radio"]:checked + .form__radio-label {
   background-color: #0e8784;
   color: white;
 }
-.form__group-inputs input[type=radio]:checked + .form__radio-label p {
+.form__group-inputs input[type="radio"]:checked + .form__radio-label p {
   color: #fefcf7;
 }
 
@@ -274,6 +274,7 @@ a {
 }
 
 .btn {
+  cursor: pointer;
   background: #66d2cf;
   border-radius: 6px;
   border: 1px solid #66d2cf;
@@ -327,4 +328,4 @@ a {
 
 .site img {
   margin-left: 24px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
